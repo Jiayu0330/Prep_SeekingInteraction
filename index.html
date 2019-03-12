@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Seeking Interaction</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="title">
+      Data Visualization with Animation and Interactions
+    </div>
+
+    <div class="overview">
+      <div class="overviewTitle">
+        Overview
+      </div>
+      <div class="overviewImage">
+        <img src="img/overview.png" alt="overview" width="624.5" height="562.5" />
+      </div>
+      <p>This is a data Visualization about "U.S. population by age group" from 1950 to 2060.
+         The left side represents the percentage of male at different ages in a given year, while the
+         right side stands for female. The x-axis is percentage and the y-axis is time period. </p>
+    </div>
+
+    <div class="animation">
+      <div class="animationTitle">
+        Animation
+      </div>
+      <div class="animationImage">
+        <img src="img/animation.png" alt="animation" width="148" height="37" />
+      </div>
+      <p>In the bottom right, there is an animation control icon that you can click to watch the animation,
+         which will go through the change of population percentage from 1950 to 2060. In D3, we can use "on"
+         function to get "click" from the icon and achieve such animation by keeping updating dataset. Then,
+         we can add transition and duration to make the animation look smooth.</p>
+    </div>
+
+    <div class="interaction">
+      <div class="interactionTitle">
+        Interaction
+      </div>
+      <div class="interactionImage">
+        <img src="img/interaction.png" alt="interaction" width="621.5" height="488.5" />
+      </div>
+      <p>If you hover on bars, details will show on the bars, including ages and the percentage of female
+         and male in the year. In D3, we can achieve this by using HTML div elements as tooltips to print
+         out the detailed information on each bar.</p>
+      <img src="img/interaction2.png" alt="interaction2" width="146" height="580" />
+      <p> Also, you can select data for specific year. In D3, we can still use "on" function to get "click"
+          and then update the dataset and the chart for that year.</p>
+
+    </div>
+
+    <div class="source">
+      <div class="sourceTitle">
+        Source
+      </div>
+      <p><a href="http://www.pewresearch.org/next-america/?_fsi=jipovcu6#The-New-Us">Website</a></p>
+    </div>
+
+  </body>
+</html>
