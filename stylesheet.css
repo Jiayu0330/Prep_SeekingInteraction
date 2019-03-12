@@ -19,6 +19,12 @@ body{
   padding: 2%;
 }
 
+/*.overview:hover, .animation:hover, .interaction:hover, .source:hover{
+  border-style: solid;
+  border-width: 4px;
+  border-color: #bb7d38;
+}*/
+
 .overviewTitle, .animationTitle, .interactionTitle, .sourceTitle{
   font-size: 22px;
   font-style: italic;
@@ -29,7 +35,7 @@ body{
 img{
   margin: 1%;
   border: 1px dashed;
-  border-color: #FAA916;
+  border-color: #6D676E;
   padding: 1%;
 }
 
