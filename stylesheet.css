@@ -17,13 +17,12 @@ body{
   margin-right: 12%;
   background-color: white;
   padding: 2%;
+  border: 10px solid #6D676E;
 }
 
-/*.overview:hover, .animation:hover, .interaction:hover, .source:hover{
-  border-style: solid;
-  border-width: 4px;
-  border-color: #bb7d38;
-}*/
+.overview:hover, .animation:hover, .interaction:hover, .source:hover{
+  border-style: double;
+}
 
 .overviewTitle, .animationTitle, .interactionTitle, .sourceTitle{
   font-size: 22px;
