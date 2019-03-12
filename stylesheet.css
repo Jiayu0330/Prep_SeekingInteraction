@@ -20,6 +20,10 @@ body{
   border: 10px solid #6D676E;
 }
 
+.interaction{
+  margin-bottom: 3%;
+}
+
 .overview:hover, .animation:hover, .interaction:hover, .source:hover{
   border-style: double;
 }
@@ -33,9 +37,13 @@ body{
 
 img{
   margin: 1%;
-  border: 1px dashed;
+  border: 3px double;
   border-color: #6D676E;
   padding: 1%;
+}
+
+img:hover{
+  border-style: solid;
 }
 
 
@@ -50,8 +58,10 @@ img{
 
 a{
   color:#6D676E;
+  font-size: 20px;
 }
+
 a:hover{
   color: #FAA916;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
 }
